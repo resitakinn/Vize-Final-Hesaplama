@@ -1,0 +1,30 @@
+body {
+    background-color: #9b9898;
+    color: aliceblue;
+}
+
+.kutu {
+    width: 50%;
+
+    margin: auto;
+}
+
+.baslik {
+    text-align: center;
+    margin-top: 10%;
+}
+
+input {
+
+    border-radius: 5%;
+    color: black;
+
+}
+
+button {
+    border-radius: 4%;
+
+}
+.swal2-content {
+    color: white;
+}
