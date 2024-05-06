@@ -35,111 +35,129 @@ $finalSonuc = $finalPuan * 0.60;
 $ortalama = $vizeSonuc + $finalSonuc;
 
 if ($ortalama >= 90 && $ortalama <= 100 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - AA ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 80 && $ortalama <= 89 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - BA ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 70 && $ortalama <= 79 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - BB ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 65 && $ortalama <= 69 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - CB ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 60 && $ortalama <= 64 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - CC ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 50 && $ortalama <= 50 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "success",
  title: "Başarılı",
  text: "'.$ortalama.' ( Harf Karşılığı - DD ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 30 && $ortalama <= 49 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "error",
  title: "Başarısız",
  text: "'.$ortalama.' ( Harf Karşılığı - FD ) ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 elseif ($ortalama >= 0 && $ortalama <= 29 ) { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "error",
  title: "Başarısız",
  text: "'.$ortalama.' - FF ",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 else { 
- echo '<script>
+ header("Refresh:3;url=index.html");
+  echo '<script>
  Swal.fire({
  icon: "error",
  title: "Başarısız",
  text:  "Hata Anasayfa Yönlendiriliyorsunuz",
- confirmButtonText: "Tamam"
+ confirmButtonText: "Tamam",
+ footer:"<a>3 Saniye İçinde Anasayfa Yönlendiriliceksiniz </a>"
              });
  </script>';
- header("Refresh:3;url=index.html");
+ 
     
     }
 
