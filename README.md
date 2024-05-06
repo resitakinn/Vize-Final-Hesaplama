@@ -15,3 +15,4 @@ Bu araç, vize ve final notlarını eşit ağırlıklı olarak kabul eder ve son
 Bu araç, dönem sonu notunuzu tahmin etmek için bir araç olarak tasarlanmıştır ve resmi notlandırma sürecinin yerini almaz.
 
 ## Ekran Görüntüsü 
+![vize-Final-Hesaplama](https://github.com/resitakinn/Vize-Final-Hesaplama/assets/103512411/5434fb00-1221-44b1-a8b1-cd5d8c6754d2)
