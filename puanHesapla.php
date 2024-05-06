@@ -24,6 +24,7 @@
   <?php
 
 
+
   if (isset($_POST['puanHesapla'])) {
     $vizePuan = $_POST['vizeSinav'];
     $finalPuan = $_POST['finalSinav'];
