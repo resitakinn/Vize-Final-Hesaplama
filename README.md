@@ -8,7 +8,6 @@ Hesapla: "Hesapla" düğmesine tıklayarak dönem sonu notunuzu görün.
 ### Özellikler
 Anında Sonuç: Notlarınızı girdikten sonra, dönem sonu notunuzu hemen görebilirsiniz.
 Kolay Kullanım: Basit arayüzü sayesinde, herkes kolayca notlarını hesaplayabilir.
-Esneklik: İsterseniz notları değiştirebilir ve tekrar hesaplama yapabilirsiniz.
 # Önemli Bilgi
 Bu araç, vize ve final notlarını eşit ağırlıklı olarak kabul eder ve sonucu bu doğrultuda hesaplar. Herhangi bir ek katsayı veya özelleştirme seçeneği sunmamaktadır.
 
